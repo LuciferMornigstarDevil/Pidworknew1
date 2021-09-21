@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @AlbertEinsteinTG & @Lucifer_Devil_AD
+# (c) @AlbertEinsteinTG & @Mrk_YT
 
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
@@ -34,7 +34,7 @@ async def start(bot, update):
             )
             return
         except Exception:
-            await update.reply_text(f"<b>This bot should be the admin on your update channel</b>\n\n<b>💢 ഈ ചാനലിൽ  @{UPDATE_CHANNEL} ബോട്ടിനെ അഡ്മിൻ ആക്. എന്നിട്ട് /start കൊടുക്</b>\n\n<b>🗣️ any Doubt @Lucifer_Devil_AD</b>")
+            await update.reply_text(f"<b>This bot should be the admin on your update channel</b>\n\n<b>💢 ഈ ചാനലിൽ  @{UPDATE_CHANNEL} ബോട്ടിനെ അഡ്മിൻ ആക്. എന്നിട്ട് /start കൊടുക്</b>\n\n<b>🗣️ any Doubt @Mo_Tech_Group</b>")
             return  
     try:
         file_uid = update.command[1]
@@ -62,13 +62,13 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '💋𝗝𝗼𝗶𝗻 𝗠𝗬 𝗖𝗮𝗻𝗻𝗲𝗶𝗹💋', url=f"{MT_CHANNEL}"
+                                    '♻️𝗝𝗢𝗜𝗡 𝗠𝗬 𝗖𝗔𝗡𝗡𝗘𝗜𝗟♻️', url=f"{MT_CHANNEL}"
                                 )
                         ],
                         [
                             InlineKeyboardButton
                                 (
-                                    '❤️ 𝗝𝗼𝗶𝗻 𝗠𝘆 𝗚𝗿𝗼𝗼𝗽 2.0 ❤️', url=f"{MT_BOT_UPDATES}"
+                                    '✨️ 𝗝𝗢𝗜𝗡 𝗠𝗬 𝗖𝗔𝗡𝗡𝗘𝗜𝗟 ✨️', url=f"{MT_BOT_UPDATES}"
                                 )
                         ]
                     ]
@@ -87,9 +87,9 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '👨‍💼 𝗕𝗢𝗧 𝗘𝗗𝗜𝗧𝗢𝗥 👨‍💼', url="https://t.me/Mo_TECH_YT"
-                                )
-                        ]]
+                                    '🦋 𝗝𝗢𝗜𝗡 𝗠𝗬 𝗚𝗥𝗢𝗨𝗣 🦋', url="https://t.me/Popcorn_group"
+                                )]
+                    ]
                 )
             )
             
@@ -105,7 +105,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '👨‍💼 𝗕𝗢𝗧 𝗘𝗗𝗜𝗧𝗢𝗥 👨‍💼', url="https://t.me/Mo_TECH_YT"
+                                    '🦋 𝗝𝗢𝗜𝗡 𝗠𝗬 𝗚𝗥𝗢𝗨𝗣 🦋', url="https://t.me/Popcorn_group"
                                 )
                         ]
                     ]
@@ -118,13 +118,13 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('❤️‍🔥Creater', url=f'https://t.me/{MRK_YT_MASTER}'),
-        InlineKeyboardButton('🔻No help 🔺', callback_data="help")
+        InlineKeyboardButton('🔻Creater🔺', url=f'https://t.me/{MRK_YT_MASTER}'),
+        InlineKeyboardButton('No Help 🤣', callback_data="help")
     ],[
-        InlineKeyboardButton('🔲𝗚𝗿𝗼𝗼𝗽🔲', url=f'{MT_GROUP}'),
-        InlineKeyboardButton('♥️𝗖𝗮𝗻𝗻𝗲𝗶𝗹♥️', url=f'{MT_CHANNEL}')
+        InlineKeyboardButton('💠𝗝𝗢𝗜𝗡 𝗠𝗬 𝗚𝗥𝗢𝗨𝗣💠', url=f'{MT_GROUP}'),
+        InlineKeyboardButton('🦋𝗝𝗢𝗜𝗡 𝗠𝗬 𝗖𝗔𝗡𝗡𝗘𝗜𝗟🦋', url=f'{MT_CHANNEL}')
     ],[
-        InlineKeyboardButton('🦋 𝗝𝗼𝗶𝗻 𝗠𝗬 𝗖𝗮𝗻𝗻𝗲𝗶𝗹 2.0 🦋', url='https://youtu.be/OTqZmADyOjU')
+        InlineKeyboardButton('💛 𝗡𝗢𝗪 𝗝𝗢𝗜𝗡 𝗠𝗬 𝗚𝗥𝗢𝗨𝗣 💛', url='https://t.me/Popcorn_group')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -163,7 +163,7 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('👤 Mrk YT👤', url='https://t.me/Lucifer_Devil_AD'),
+        InlineKeyboardButton('💛𝗝𝗢𝗜𝗡 𝗠𝗬 𝗚𝗥𝗢𝗨𝗣💛', url='https://t.me/ADMOVEIAD'),
         InlineKeyboardButton('Skp KP👤', url='https://t.me/Skp_Kp')
     ],[
         InlineKeyboardButton('👤 AlbertEinstein 👤', url='https://t.me/AlbertEinsteinTG')
